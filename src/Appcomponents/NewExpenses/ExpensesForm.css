@@ -1,0 +1,33 @@
+.form{
+    background-color:violet;
+    width: 720px;
+    margin:10px auto;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.table{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+input{
+    border-radius: 4px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+label{
+    margin: 5px;
+}
+.design,.design1{
+    background-color: rgb(54, 35, 231);
+    border-radius: 5px;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+
+}
