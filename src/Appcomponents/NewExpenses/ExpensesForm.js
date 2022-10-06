@@ -18,10 +18,10 @@ function ExpensesForm(props){
        settext('');
        setamount('');
        setdate('');
-       var abc={
+       var abc=[{
         id:Math.floor(Math.random()*1000),
         name:new Date(day),amount:rupee,project:title
-       }
+       }]
        props.datas(abc)
     }
     function action(){

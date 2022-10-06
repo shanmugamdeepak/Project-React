@@ -13,7 +13,7 @@ let date=[
 const[user,setuser]=useState(date)
 function deepak(details){
   setuser((user2)=>{
-    return[details,...user2]
+    return[...details,...user2]
 })}
 
 return (
